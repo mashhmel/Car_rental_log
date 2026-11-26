@@ -1,0 +1,9 @@
+Put one photo per car in this folder.
+
+Name each photo after the car's "image" column in cars.csv
+(by default the car ID): C001.jpg, C002.jpg ... C024.jpg
+
+.jpg, .jpeg, .png and .webp all work (change the name in cars.csv if it isn't .jpg).
+Any size is fine - the app crops every photo to the same 4:3 shape.
+Use photos you're allowed to use (your own, or free-licence sites like Unsplash/Pexels)
+and credit them in the README.

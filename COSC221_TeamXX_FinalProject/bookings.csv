@@ -1,0 +1,13 @@
+booking_id,customer,phone,car_id,car_name,plate,daily_rate,pickup_date,days,payment_method,status,created_at,docs_checked,signed_by,picked_up_at,returned_on,late_fee,damage_fee,damage_note,extra_payment_method
+B001,Anan Wongsa,0891234501,C005,Toyota Yaris Ativ,BC-2033,35,2026-11-01,3,Cash,Returned,2026-10-30 10:12,True,Anan Wongsa,2026-11-01 09:30,2026-11-04,0,0,,
+B002,Sofia Martins,0891234502,C015,Honda CR-V,KK-3046,70,2026-11-03,2,Card,Returned,2026-11-01 14:40,True,Sofia Martins,2026-11-03 09:30,2026-11-06,105,0,,Card
+B003,Kittipong Chaiyo,0891234503,C011,Toyota Corolla Cross,KK-3042,55,2026-11-05,4,Transfer,Returned,2026-11-02 09:05,True,Kittipong Chaiyo,2026-11-05 09:30,2026-11-09,0,50,Minor: Scratch on rear bumper,Cash
+B004,Ben Carter,0891234504,C022,Toyota Commuter,VN-5061,98,2026-11-06,3,Card,Returned,2026-11-04 16:20,True,Ben Carter,2026-11-06 09:30,2026-11-11,294,80,Minor: Cracked side mirror,Card
+B005,Mali Srisuk,0891234505,C006,Toyota Yaris Ativ,BC-2034,35,2026-11-08,2,Cash,Returned,2026-11-07 11:00,True,Mali Srisuk,2026-11-08 09:30,2026-11-10,0,0,,
+B006,Nina Park,0891234506,C014,Mazda CX-5,KK-3045,68,2026-11-10,4,Card,Picked up,2026-11-08 13:15,True,Nina Park,2026-11-10 09:30,,0,0,,
+B007,Dara Sok,0891234507,C020,Toyota Hilux Revo,PT-4052,55,2026-11-15,7,Transfer,Picked up,2026-11-12 10:30,True,Dara Sok,2026-11-15 09:30,,0,0,,
+B008,Leo Grant,0891234508,C005,Toyota Yaris Ativ,BC-2033,35,2026-11-16,5,Card,Picked up,2026-11-14 15:45,True,Leo Grant,2026-11-16 09:30,,0,0,,
+B009,Ploy Kanya,0891234509,C017,Toyota Fortuner,KK-3048,85,2026-11-20,3,Cash,Booked,2026-11-15 09:50,False,,,,0,0,,
+B010,Tom Reyes,0891234510,C023,Hyundai Staria,VN-5062,108,2026-11-24,2,Transfer,Booked,2026-11-16 17:10,False,,,,0,0,,
+B011,Omar Haddad,0891234511,C012,Honda HR-V,KK-3043,58,2026-11-28,5,Card,Booked,2026-11-17 10:05,False,,,,0,0,,
+B012,Pim Rattana,0891234512,C005,Toyota Yaris Ativ,BC-2033,35,2026-11-12,2,Cash,Returned,2026-11-10 12:00,True,Pim Rattana,2026-11-12 09:30,2026-11-14,0,0,,

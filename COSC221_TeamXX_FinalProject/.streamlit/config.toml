@@ -1,0 +1,28 @@
+# White + dark navy theme for the Car Rental Log
+[theme]
+base = "light"
+primaryColor = "#0B2545"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F5FA"
+textColor = "#0B2545"
+linkColor = "#1D4E89"
+borderColor = "#D8E0EC"
+dataframeHeaderBackgroundColor = "#EEF2F8"
+baseRadius = "medium"
+headingFontWeights = [700, 600, 600]
+
+[theme.sidebar]
+backgroundColor = "#0B2545"
+secondaryBackgroundColor = "#13315C"
+textColor = "#FFFFFF"
+primaryColor = "#8DB3E2"
+borderColor = "#24426B"
+
+[server]
+address = "localhost"     # staff only: the app can't be opened from other devices
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
