@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.tmp
+bookings_damaged_*.csv
