@@ -130,6 +130,14 @@ def go_to(page, **values):
     for key, value in values.items():
         st.session_state[key] = value
 
+def _flatten_to_white_rgb(photo: Image.Image) -> Image.Image:
+    """Composite any transparent pixels onto a solid white RGB canvas."""
+    if photo.mode in ("RGBA", "LA") or (photo.mode == "P" and "transparency" in photo.info):
+        rgba = photo.convert("RGBA")
+        white_bg = Image.new("RGB", rgba.size, (255, 255, 255))
+        white_bg.paste(rgba, mask=rgba.getchannel("A"))
+        return white_bg
+    return photo.convert("RGB")
 
 @st.cache_data(show_spinner=False)
 def load_photo(path_text, modified_time):
