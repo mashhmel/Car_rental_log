@@ -1,25 +1,25 @@
 car_id,brand,model,type,plate,daily_rate,image
-C001,Suzuki,Swift,Hatchback,AB-1021,29,C001.jpg
-C002,Honda,Jazz,Hatchback,AB-1022,31,C002.jpg
-C003,Nissan,Almera,Sedan,BC-2031,31,C003.jpg
-C004,Mazda,2,Sedan,BC-2032,33,C004.jpg
-C005,Toyota,Yaris Ativ,Sedan,BC-2033,35,C005.jpg
-C006,Toyota,Yaris Ativ,Sedan,BC-2034,35,C006.jpg
-C007,Honda,City,Sedan,BC-2035,35,C007.jpg
-C008,Honda,Civic,Sedan,BC-2036,55,C008.jpg
-C009,Toyota,Camry,Sedan,BC-2037,75,C009.jpg
-C010,MG,ZS EV,SUV,KK-3041,52,C010.jpg
-C011,Toyota,Corolla Cross,SUV,KK-3042,55,C011.jpg
-C012,Honda,HR-V,SUV,KK-3043,58,C012.jpg
-C013,BYD,Atto 3,SUV,KK-3044,62,C013.jpg
-C014,Mazda,CX-5,SUV,KK-3045,68,C014.jpg
-C015,Honda,CR-V,SUV,KK-3046,70,C015.jpg
-C016,Isuzu,MU-X,SUV,KK-3047,79,C016.jpg
-C017,Toyota,Fortuner,SUV,KK-3048,85,C017.jpg
-C018,Ford,Everest,SUV,KK-3049,92,C018.jpg
-C019,Isuzu,D-Max,Pickup,PT-4051,52,C019.jpg
-C020,Toyota,Hilux Revo,Pickup,PT-4052,55,C020.jpg
-C021,Ford,Ranger,Pickup,PT-4053,62,C021.jpg
-C022,Toyota,Commuter,Van,VN-5061,98,C022.jpg
-C023,Hyundai,Staria,Van,VN-5062,108,C023.jpg
-C024,Toyota,Alphard,Van,VN-5063,199,C024.jpg
+C001,Suzuki,Swift,Hatchback,AB-1021,29,C001.png
+C002,Honda,Jazz,Hatchback,AB-1022,31,C002.png
+C003,Nissan,Almera,Sedan,BC-2031,31,C003.png
+C004,Mazda,2,Sedan,BC-2032,33,C004.png
+C005,Toyota,Yaris Ativ,Sedan,BC-2033,35,C005.png
+C006,Toyota,Yaris Ativ,Sedan,BC-2034,35,C006.png
+C007,Honda,City,Sedan,BC-2035,35,C007.png
+C008,Honda,Civic,Sedan,BC-2036,55,C008.png
+C009,Toyota,Camry,Sedan,BC-2037,75,C009.png
+C010,MG,ZS EV,SUV,KK-3041,52,C010.png
+C011,Toyota,Corolla Cross,SUV,KK-3042,55,C011.png
+C012,Honda,HR-V,SUV,KK-3043,58,C012.png
+C013,BYD,Atto 3,SUV,KK-3044,62,C013.png
+C014,Mazda,CX-5,SUV,KK-3045,68,C014.png
+C015,Honda,CR-V,SUV,KK-3046,70,C015.png
+C016,Isuzu,MU-X,SUV,KK-3047,79,C016.png
+C017,Toyota,Fortuner,SUV,KK-3048,85,C017.png
+C018,Ford,Everest,SUV,KK-3049,92,C018.png
+C019,Isuzu,D-Max,Pickup,PT-4051,52,C019.png
+C020,Toyota,Hilux Revo,Pickup,PT-4052,55,C020.png
+C021,Ford,Ranger,Pickup,PT-4053,62,C021.png
+C022,Toyota,Commuter,Van,VN-5061,98,C022.png
+C023,Hyundai,Staria,Van,VN-5062,108,C023.png
+C024,Toyota,Alphard,Van,VN-5063,199,C024.png
