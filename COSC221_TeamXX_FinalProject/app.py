@@ -133,9 +133,10 @@ def go_to(page, **values):
 
 @st.cache_data(show_spinner=False)
 def load_photo(path_text, modified_time):
-    """Crop every photo to the same 4:3 shape so the cards line up."""
+    """Crop every photo to the same 4:3 shape on a white background."""
     with Image.open(path_text) as photo:
-        return ImageOps.fit(photo.convert("RGB"), (800, 600))
+        rgb_photo = _flatten_to_white_rgb(photo)
+        return ImageOps.fit(rgb_photo, (800, 600))
 
 
 def show_car_photo(car):
@@ -146,8 +147,10 @@ def show_car_photo(car):
             return
         except OSError:
             pass  # broken image file: show the placeholder instead
-    st.markdown(f"<div class='photo-slot'>📷<br>images/{photo_path.name}</div>",
-                unsafe_allow_html=True)
+    st.markdown(
+        f"<div class='photo-slot'>📷<br>images/{photo_path.name}</div>",
+        unsafe_allow_html=True,
+    )
 
 
 # ---------------------------------------------------------------- top menu
